@@ -1,0 +1,23 @@
+{
+  "type": "loot_extra:add_functions",
+  "loot_tables": [
+    "minecraft:entities/squid"
+  ],
+  "functions": [
+    {
+      "function":  "minecraft:set_name",
+      "name": {
+        "translate": "item.loot_extra_example.glowing_ink_sac",
+        "color": "aqua"
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "direct_entity": {
+            "type": "minecraft:spectral_arrow"
+          }
+        }
+      ]
+    }
+  ]
+}

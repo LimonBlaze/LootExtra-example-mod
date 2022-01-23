@@ -1,0 +1,21 @@
+{
+  "type": "loot_extra:add_pool_conditions",
+  "loot_tables": [
+    {
+      "type": "loot_extra:predicate",
+      "name": "entities/sheep/"
+    }
+  ],
+  "pool_index": 0,
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "predicate": {
+        "flags": {
+          "is_on_fire": false
+        }
+      },
+      "entity": "this"
+    }
+  ]
+}

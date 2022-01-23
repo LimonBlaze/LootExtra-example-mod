@@ -1,0 +1,26 @@
+{
+  "type": "loot_extra_example:loot_to_xp",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "enchantments": [
+              {
+                "enchantment": "loot_extra_example:soul_extraction",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "enchantment": "loot_extra_example:soul_extraction",
+  "base_xp": 2,
+  "level_xp": 1
+}

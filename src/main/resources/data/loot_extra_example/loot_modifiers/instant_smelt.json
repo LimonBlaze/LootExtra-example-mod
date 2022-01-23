@@ -1,0 +1,18 @@
+{
+  "type": "loot_extra_example:instant_smelt",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "enchantments": [
+          {
+            "enchantment": "loot_extra_example:instant_smelt",
+            "levels": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "loot_extra:add_pool_entries",
+  "loot_tables": [
+    "minecraft:gameplay/piglin_bartering"
+  ],
+  "pool_index": 0,
+  "entries": [
+    {
+      "type": "minecraft:item",
+      "weight": 2,
+      "name": "minecraft:netherite_scrap"
+    }
+  ]
+}

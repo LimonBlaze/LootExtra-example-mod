@@ -1,0 +1,27 @@
+{
+  "type": "loot_extra:add_pool_functions",
+  "loot_tables": [
+    "minecraft:gameplay/fishing"
+  ],
+  "pool_index": 0,
+  "functions": [
+    {
+      "function":  "minecraft:furnace_smelt",
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "loot_extra_example:flamming_bobber",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
